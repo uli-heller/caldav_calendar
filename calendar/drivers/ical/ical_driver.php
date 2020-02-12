@@ -59,7 +59,7 @@ class ical_driver extends calendar_driver
     private $sync_clients = array();
 
     // Min. time period to wait until sync check.
-    private $sync_period = 10; // TODO: 600; // seconds
+    private $sync_period = 600; // TODO: 600; // seconds
 
     // Crypt key for CalDAV auth
     private $crypt_key;
